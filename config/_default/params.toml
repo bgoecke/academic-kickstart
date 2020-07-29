@@ -90,31 +90,32 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "Benjamin.Goecke@uni-ulm.de"
-phone = "0731 - 25374"
+phone = "+49 731 - 25374"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Albert-Einstein-Allee 47", city = "Ulm", region = "BaWü", postcode = "89081", country = "Germany", country_code = "DE"}
+address = {street = "Albert-Einstein-Allee 47", city = "Ulm", postcode = "89081", country = "Germany", country_code = "DE"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 coordinates = {latitude = "48.419541", longitude = "9.944689"}
 
 # Directions for visitors to locate you.
-directions = "This is a direction description."
+# directions = "This is a direction description."
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
+# office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "hier sollte nichts stehen"
+# appointment_url = "hier sollte nichts stehen"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/BenjaminGoecke"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "https://twitter.com/BenjaminGoecke"},
+  {icon = "twitter", icon_pack = "fab", name = "Follow me on Twitter", link = "https://twitter.com/BenjaminGoecke"},
+  {icon = "researchgate", icon_pack = "fab", name = "Follow me on ResearchGate", link = "https://www.researchgate.net/profile/Benjamin_Goecke"},
+ # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "https://twitter.com/BenjaminGoecke"},
  # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
  # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
@@ -125,7 +126,7 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = ""
+sharing_image = "IM_7502.jpg"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = "BenjaminGoecke"
